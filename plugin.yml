@@ -1,0 +1,36 @@
+name: SurprisePearl
+main: com.lebasti.sp.Main
+description: A minigame by LeBasti
+author: LeBasti
+version: 1.0
+website: http://www.lebasti.com
+
+commands:
+  sp:
+    description: Surprise Pearl main command
+    
+  permissions:
+  SP.*:
+    description: All permissions
+    children:
+      SP.Help: true
+      SP.Info: true
+      SP.Config: true
+      SP.Set: true
+      SP.Join: true
+      SP.JoinSPEC: true
+      SP.Perms: true
+  SP.Help:
+    description: SP Help
+  SP.Info:
+    description: SP Info
+  SP.Config:
+    description: SP Config
+  SP.Set:
+    description: SP Set  
+  SP.Join:
+    description: SP Join    
+  SP.Join.Spec:
+    description: SP Join as SPEC
+  SP.Perms:
+    description: SP Permissions Access
